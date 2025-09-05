@@ -18,3 +18,5 @@ Run the tool in your terminal:
 
 ```bash
 python app.py
+
+<img width="442" height="198" alt="image" src="https://github.com/user-attachments/assets/5cb8270a-414b-48c2-9fd4-38c2afd7374c" />
