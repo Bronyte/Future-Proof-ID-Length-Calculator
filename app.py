@@ -2,6 +2,7 @@
 """
 Future-Proof ID Length Calculator
 Allows numeric-only or alphanumeric IDs with linear/exponential growth.
+Shows total possible combinations including safety margin.
 """
 
 import math
@@ -44,11 +45,17 @@ def main():
         final_length = chars_needed + safety_margin
         example_id = 'X' * final_length
 
+    # Calculate total possible combinations
+    total_combinations_without_margin = base ** chars_needed
+    total_combinations_with_margin = base ** final_length
+
     # Output
     print("\nCalculation Results:")
     print(f"Projected maximum IDs: {projected_max:.0f}")
     print(f"Characters needed without safety margin: {chars_needed}")
     print(f"Characters needed with safety margin: {final_length}")
+    print(f"Total possible IDs without safety margin: {total_combinations_without_margin:,}")
+    print(f"Total possible IDs with safety margin: {total_combinations_with_margin:,}")
     if char_type == 'N':
         print(f"Example numeric ID: {example_id}")
     else:
