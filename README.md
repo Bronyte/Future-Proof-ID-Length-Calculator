@@ -22,5 +22,6 @@ Run the tool in your terminal:
 python app.py
 ```
 
-<img width="442" height="198" alt="image" src="https://github.com/user-attachments/assets/df37d67e-5f13-4179-ac38-c1deb836708d" />
+<img width="459" height="475" alt="image" src="https://github.com/user-attachments/assets/dd67bff4-8cd8-4cad-b809-0e2f5947df39" />
+
 
